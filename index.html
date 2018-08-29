@@ -1,0 +1,33 @@
+<!--  DOM Challeng
+    - create a new HTML
+    - add an h1(things to do) and 5 p tags (5 todos)
+    - server up folder
+    - Create and link js file
+    - iterate over paragraph, remove p's that have the word the
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Todo App</title>
+ </head>
+ <body>
+     <h1>Things to do</h1>
+     <input type="text" id="searchText" placeholder="Filter todos..."> 
+     <label for="hideCompleted">
+         <input type="checkbox" id="hideCompleted">Hide Completed
+     </label>
+     <h2 id="heading"></h2>
+     <div id="todoList"></div>
+     <form id="todo-form">
+         <input type="text" placeholder="Enter Todo" name="newTodo">
+         <button>Add Todo</button>
+     </form>
+     <script src="uuid.js"></script>
+     <script src="todo-functions.js"></script>
+     <script src="todo-app.js"></script>
+ </body>
+ </html>
