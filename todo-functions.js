@@ -21,7 +21,7 @@ const removeTodo = (id) => {
 const toggleTodo = (id) => {
     const todo = todos.find( (todo) => todo.id === id);
 
-    if (!todo) {
+    if (todo) {
         todo.completed = !todo.completed;
     }
 };
