@@ -1,3 +1,5 @@
+'use strict'
+
 const todos = getSavedTodos();
 
 // filter object that will hold users search term
